@@ -1,0 +1,147 @@
+body{
+
+    background:url('img.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+html {
+height: 100%;
+}
+
+.header{
+height: 100px;
+background:white;
+padding:0 20px;
+}
+
+.wrapper{
+background-color: teal;
+color: white;
+margin: 40px;
+padding: 0;
+width: 300px;
+float: left;
+position: fixed;
+}
+
+.menu{
+float: right;
+line-height: 100px;
+}
+
+.menu a{
+    color: grey;
+    text-transform: none;
+    text-decoration: none;
+    padding: 0 10px;
+    width: 100px;
+    top: 0;
+    
+}
+
+
+
+.main{
+
+color:teal;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+margin: 10px 200px 200px 200px;
+padding: 10px 200px 200px 200px;
+}
+
+.h2{
+    color:teal;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    float:left;
+    width: 33%;
+    padding: 10px;
+}
+
+.img.border{
+    border-right: 1px solid #dddddd;
+    padding: 10px;
+}
+
+a{
+    color: #777777;
+    text-decoration: none;
+    
+}
+
+.portLabel{
+    width:70%;
+    height: 50px;
+    line-height: 50px;
+    background: teal;
+    color: white;
+    text-align: center;
+    
+}
+
+#content{
+background-color: white;
+color: teal;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+width:960px;
+margin: 10px 50px 50px 50px;
+padding: 10px 50px 50px 50px;
+float: right;
+}
+
+
+
+body{
+margin: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.125em;
+line-height:1.6;
+color:black;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+
+#div {
+background:url(img.jpg);
+}
+
+.content{
+flex:1;
+
+}
+
+#Copyright{
+background-color: #666666;
+color: lightgrey;
+position: relative;
+height:100px;
+border-top: 8px solid #4aaaa5;
+margin-top: auto;
+clear: both;
+font-size: 15px;
+text-align: center;
+}
